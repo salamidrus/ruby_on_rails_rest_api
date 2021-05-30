@@ -1,0 +1,14 @@
+# To generate new project
+rails new <name> --api
+
+# To start the server
+rails s
+
+# To make a controller
+rails g controller <controller name> <optional - methods > e.g. rails controller BookController index
+
+# To make a model
+rails g model <model name> <attributes>:<type> e.g. rails g model Book title:string author:string
+
+# To do db migration
+rails db:migrate
