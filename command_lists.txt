@@ -12,3 +12,12 @@ rails g model <model name> <attributes>:<type> e.g. rails g model Book title:str
 
 # To do db migration
 rails db:migrate
+
+# Check specific routes
+rails routes | grep <name> e.g. rails routes | grep book
+
+# API Request
+add -v to get all returned informations
+curl http://localhost:3000/<routes>
+POST Method - curl --request POST http://localhost:3000/<routes>
+With header and Data -  curl --header "Content-Type: application/json" --request POST --data '{"author": "James","title": "Cook"}' http://localhost:3000/books -v  
