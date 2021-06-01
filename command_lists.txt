@@ -21,3 +21,6 @@ add -v to get all returned informations
 curl http://localhost:3000/<routes>
 POST Method - curl --request POST http://localhost:3000/<routes>
 With header and Data -  curl --header "Content-Type: application/json" --request POST --data '{"author": "James","title": "Cook"}' http://localhost:3000/books -v  
+
+# Rails Status Codes
+http://www.railsstatuscodes.com/
