@@ -24,3 +24,7 @@ With header and Data -  curl --header "Content-Type: application/json" --request
 
 # Rails Status Codes
 http://www.railsstatuscodes.com/
+
+# Rails Active Record Validation
+http://www.guides.rubyonrails.org/active_record_validations.html
+
