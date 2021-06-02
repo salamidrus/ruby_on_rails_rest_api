@@ -28,3 +28,11 @@ http://www.railsstatuscodes.com/
 # Rails Active Record Validation
 http://www.guides.rubyonrails.org/active_record_validations.html
 
+# Rails API Test with RSpec
+https://github.com/rspec/rspec-rails
+- Add gem 'rspec-rails' in GemFile at development
+- run 'bundle'
+- run rspec to do the tests
+
+# Factory Bot
+https://github.com/thoughtbot/factory_bot_rails
