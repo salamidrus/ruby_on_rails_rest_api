@@ -40,5 +40,8 @@ https://github.com/thoughtbot/factory_bot_rails
 # To add Association in model
 rails g migration <relation> e.g. rails g migration add_author_to_books author:references
 
-$ Removing a column in table
+# Removing a column in table
 rails g migration <remove command> e.g. rails g migration remove_author_from_books author:string
+
+# Removing multiple data using select & map
+Book.select {|book| book.author_id.nil? }.map(&:destroy)
