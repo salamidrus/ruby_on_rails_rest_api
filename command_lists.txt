@@ -46,4 +46,8 @@ rails g migration <remove command> e.g. rails g migration remove_author_from_boo
 # Removing multiple data using select & map
 Book.select {|book| book.author_id.nil? }.map(&:destroy)
 
-$ Generate Job
+# Generate Job
+rails g job <job_name> e.g. rails g job update_sku
+
+# Ruby-JWT
+https://github.com/jwt/ruby-jwt

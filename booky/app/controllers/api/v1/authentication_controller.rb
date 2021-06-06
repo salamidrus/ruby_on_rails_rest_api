@@ -13,8 +13,8 @@ module Api
 
       private
 
-      def parameter_missing(e)
-        render json: { error: e.message }, status: :unprocessable_entity
+      def parameter_missing(err)
+        render json: { error: err.message }, status: :unprocessable_entity
       end
     end
   end
