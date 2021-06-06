@@ -51,3 +51,6 @@ rails g job <job_name> e.g. rails g job update_sku
 
 # Ruby-JWT
 https://github.com/jwt/ruby-jwt
+
+# Bcrypt - Hashing Password
+rails g migration add_password_diges_to_user password_digest:string
